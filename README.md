@@ -17,6 +17,9 @@ console.log(selector.classes.join(' ')); // classA classB
 console.log(sp('span#id1'));
 // {tag: 'span', id: 'id1'}
 
+console.log(sp('#id1'));
+// {tag: 'div', id: 'id1'}
+
 console.log(sp('span.classA'));
 // {tag: 'span', classes: ['classA']}
 
