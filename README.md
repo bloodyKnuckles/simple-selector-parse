@@ -5,7 +5,7 @@
 
 ### use
 
-```javascript
+```
 var sp = require('simple-selector-parse');
 
 var selector = sp('span#id1.classA.classB);
