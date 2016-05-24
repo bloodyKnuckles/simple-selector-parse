@@ -1,0 +1,29 @@
+{
+  "name": "simple-selector-parse",
+  "version": "0.1.0",
+  "description": "Split and categorize a single selector into: tag, id, and classes.",
+  "main": "index.js",
+  "directories": {
+    "test": "tape test/*.js"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloodyKnuckles/simple-selector-parse.git"
+  },
+  "keywords": [
+    "selector",
+    "parse"
+  ],
+  "author": "Jay Scott ANDERSON",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyKnuckles/simple-selector-parse/issues"
+  },
+  "homepage": "https://github.com/bloodyKnuckles/simple-selector-parse#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
